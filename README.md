@@ -8,8 +8,9 @@
 ![pizza image](https://myhousehacks.com/wp-content/uploads/2023/01/ezgif.com-gif-maker-43.jpg?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-1)
 
 * dataset link is in first cell of main.ipynb or you can download from [here](https://www.kaggle.com/datasets/carlosrunner/pizza-not-pizza)
-
+* ```model.pth``` is generated after running main.ipynb
 * This project use transferred learning
 * ```normilization_value.py``` is used to find normalization values
-* to tun this project use ```streamlit run main.py```
+* carefully modify paths according to your machine
+* to tun this project first run ```main.ipynb``` to create ```model.pth``` then use ```streamlit run main.py```
 * This project is inspired from [this tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
